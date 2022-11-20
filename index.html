@@ -1,21 +1,18 @@
 <html>
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<script type="text/javascript" src="copperlichtdata/copperlicht.js"></script>
+	<script type="text/javascript" src="copperlicht.js"></script>
 </head>
-<body style="
-margin:0;">
+<body>
 	<div align="center">
-		<canvas id="3darea"  style="background-color:#000000;height: 600px;width: 1275px;">
+		<canvas id="3darea" width="1260" height="580" style="background-color:#000000">
 		</canvas>
 	</div>
 	<script type="text/javascript">
 	
-		var canvas = document.querySelector("canvas");
-		
-			startCopperLichtFromFile('3darea', 'copperlichtdata/qapp.ccbjs', 'Loading <br/><br/><img style="max-width:50%" src="copperlichtdata/coppercubeloadinglogo.png" />', 'Error: This browser does not support WebGL (or it is disabled).<br/>See <a href=\"http://www.ambiera.com/copperlicht/browsersupport.html\">here</a> for details.', false, false, "#000000");
+			startCopperLichtFromFile('3darea', 'app.ccbjs', 'Fire Ball',"<img src=loading.gif style=width:240px;height:40px>", false, false, "#000000");
 	
 	</script>
 	<br/>
-	</body>
+</body>
 </html>
